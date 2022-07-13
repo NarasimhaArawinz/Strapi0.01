@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emps",
+  "info": {
+    "singularName": "emp",
+    "pluralName": "emps",
+    "displayName": "Emp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email"
+    },
+    "RegDate": {
+      "type": "date",
+      "default": "2022-04-24"
+    },
+    "ProfilePic": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
